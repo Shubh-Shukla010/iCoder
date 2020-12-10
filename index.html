@@ -27,9 +27,6 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about.html">About</a>
-                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,7 +41,7 @@
                             <li><a class="dropdown-item"
                                     href="https://www.youtube.com/channel/UCeVMnSShP_Iviwkknt83cww">Code with Harry
                                     Channel</a></li>
-                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=vpAJ0s5S2t0&t">Bootsrap
+                            <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=vpAJ0s5S2t0&t">Bootstrap
                                     in one video</a></li>
                             <li>
                                 <hr class="dropdown-divider">
@@ -53,14 +50,92 @@
                             <li><a class="dropdown-item" href="#">Write about us</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contact.html">Contact Us</a>
-                    </li>
+                    
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-danger mx-1" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Login
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="text" class="form-control" placeholder="Enter your Email address"
+                                            aria-label="Email Address" aria-describedby="basic-addon1">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon2">Password</span>
+                                        <input type="password" class="form-control" placeholder="Enter your Password"
+                                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1">
+                    Signup
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel1">Signup</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Username"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" placeholder="Enter your Email Address"
+                                        aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon2">Password</span>
+                                    <input type="password" class="form-control" placeholder="Choose Password"
+                                        aria-label="Choose Password" aria-describedby="basic-addon2">
+                                    <span class="input-group-text" id="basic-addon2"></span>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger">Signup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </nav>
@@ -91,8 +166,8 @@
                     <p>Technology news, Web Development and Trends</p></b>
                     <a href="https://www.technewsworld.com/perl/section/tech-blog/"><button
                             class="btn btn-danger">Technology</button></a>
-                            <a href="http://blog.thefirehoseproject.com/posts/5-web-development-blogs-you-should-be-reading/"><button
-                                class="btn btn-primary">Web Development</button></a>
+                    <a href="http://blog.thefirehoseproject.com/posts/5-web-development-blogs-you-should-be-reading/"><button
+                            class="btn btn-primary">Web Development</button></a>
                     <button class="btn btn-success">Trends</button>
                 </div>
             </div>
@@ -103,8 +178,8 @@
                     <p>Technology news, Web Development and Trends</p></b>
                     <a href="https://www.technewsworld.com/perl/section/tech-blog/"><button
                             class="btn btn-danger">Technology</button></a>
-                            <a href="http://blog.thefirehoseproject.com/posts/5-web-development-blogs-you-should-be-reading/"><button
-                                class="btn btn-primary">Web Development</button></a>
+                    <a href="http://blog.thefirehoseproject.com/posts/5-web-development-blogs-you-should-be-reading/"><button
+                            class="btn btn-primary">Web Development</button></a>
                     <button class="btn btn-success">Trends</button>
                 </div>
             </div>
